@@ -1,0 +1,46 @@
+nav{
+    background: black;
+    color: white;
+    padding-left: 50%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 30px;
+}
+
+a.menu{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a.menu:hover{
+    color: orange;
+    background: grey;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+div{
+    padding: 100px;
+    border: 2px blue solid;
+}
+
+body{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 10px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 95%;
+}
