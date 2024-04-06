@@ -1,22 +1,31 @@
 nav{
-    background: black;
+    background: orange;
     color: white;
-    padding-left: 50%;
+    padding-left: 60px;
     padding-bottom: 15px;
     padding-top: 15px;
     padding-right: 30px;
+    border-radius: 4px;
+    
+    position: fixed;
 }
 
 a.menu{
     color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
     font-style: normal;
+    font-variation-settings:
+        "XROT" 0,
+        "YROT" 0;
+    padding-left: 40px;
+    
 }
 
 a.menu:hover{
     color: orange;
-    background: grey;
+    background: white;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -24,21 +33,25 @@ a.menu:hover{
 }
 
 div{
-    padding: 100px;
-    border: 2px blue solid;
+    padding: 50px;
+    border: 2px orange solid;
 }
 
 body{
     color: black;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
+    font-variation-settings:
+        "XROT" 0,
+        "YROT" 0;
 }
 
 img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
+    border: 10px solid rgba((249, 105, 14);, 1);
     border-radius: 4px;
     display: block;
     margin: 1.3em auto;
